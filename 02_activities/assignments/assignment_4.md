@@ -8,22 +8,30 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    I used matplotlib to make the visualisation in python. For the second visualisation, I used excel and the graph features in it. 
 
     > Who is your intended audience? 
+    The intended audience for both the visualisations could be Toronto public health workers or health reform makers in healthcare institutions like hospitals, long-term care homes and retirement homes. Toronto public health works with healthcare institutions to prevent and control institutional outbreaks. The visualisation made on matplotlib could be utilised for infection prevention and control.
     
     > What information or message are you trying to convey with your visualization? 
+    The first visualisation demonstrates the number of gastroenteric (eg. Nausea, vomiting, diarrhea, fever) and respiratory (eg. Cough, runny nose, sore throat, fever) infections in different outbreak settings like LTCH (long term care hospital), retirement homes, chronic care hospital, acute care hospital, psychiatric care hospital and transitional care.  The second visualisation shows a bar graph with the frequency of outbreaks in different outbreak settings also divided by the type of outbreak like respiratory, enteric and others. 
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    The design principles I considered while making both the visualisation was aesthetics, substantive and perceptual. I used colors and font which were pleasing to look at, used data appropriately to convey an honest and true message and tried to keep the visualisation simple and clear to convey the message appropriately. 
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    I made the visualisation using python code and save it so they can be run again and replicated. I also set a seed value to allow for reproducibility even if the code is run multiple times.  I couldn’t save the steps I used to make the second visualisation in excel therefore the visualisation is not reproducible and hence if someone wants to replicate the same visualisation on their own, it wont be possible to do and they might succeed in making something similar but not entirely same. 
     
-    > How did you ensure that your data visualization is accessible?  
+    > How did you ensure that your data visualization is accessible?
+    I used colors and contrast that are suitable for people with color blindness and autism. The softwares I used for this purpose are webAIM and color blindness stimulator. They allowed me to select optimum colors with adequate contrast. I changed the colors for the bars in the second visualisation using the edit graph feature to allow for accessibility for color blindness.   
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+    The healthcare community might be impacted by both the visualisation as it allows them to see the number of infection outbreaks and to access how to stay safe from them through prevention and control. 
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    I excluded the addresses of the outbreak settings and the time the outbreak started and ended as it was a lot of overwhelming information that I didn’t want to show in my visualisation. I only included 2 columns: outbreak setting and the type of infections caused like respiratory, enteric and others. For the second visualisation, I also added a third column in addition to the two columns which included the total number of outbreaks. 
     > What ‘underwater labour’ contributed to your final data visualization product?
+    I used resources from the Data Visualisation module and beginner youtube videos on data visualisation  to enable me to work on my visualisation constructively. 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
